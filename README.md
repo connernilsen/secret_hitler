@@ -25,3 +25,22 @@ Custom assets (made in Inkscape) were added based on the style of the original, 
 All of the base game's rules were kept as-is, but the web interface, animations, and server are new additions.
 
 ### Report problems on the [Issues page](https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues).
+
+
+## TODOs
+
+- [ ] hide player party and allow it to be shown with a button press
+- [ ] show voting results for longer
+- [ ] fix reconnection and party leader priority
+- [ ] allow leaders to kick users
+- [ ] multi-game win counter
+- [ ] rebuild backend in python
+- [ ] add socket-based functionality to frontend 
+- [ ] spectator mode
+
+
+## Setting up Python
+
+1. Run `python3 -m venv venv` at the root of the project
+2. Run `source venv/bin/activate` **every time you restart your terminal before working on this project's Python code**
+3. Run `pip install -r requirements.txt` to install required dependencies
